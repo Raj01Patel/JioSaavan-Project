@@ -5,23 +5,81 @@
     font-family: Lato, sans-serif;
 }
 
-body {
-    background: #f6f6f6;
-    color: #3e3e3e;
+.navbar {
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* border-bottom: 1px solid; */
 }
 
-.main {
+.left-section {
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid green; */
     display: flex;
-    height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-section {
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid green; */
+    margin-left: 5%;
+}
+
+.right-section {
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid green; */
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 60%;
+}
+
+.input-box {
     width: 100%;
+    height: 90%;
+    background-color: white;
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 20px;
+}
+
+.drop-down {
+    height: 100%;
+    border: 0px;
+    background: transparent;
+}
+
+.content {
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+}
+
+.side-nav {
+    /* border: 1px solid teal; */
+    width: 15%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.album-list {
+    width: 85%;
+    /* border: 1px solid green; */
 }
 
 .album-list {
     width: 83%;
     position: relative;
-    top: 46px;
-    left: 253px;
-    z-index: -1;
     /* border: 2px solid red; */
 }
 
@@ -65,4 +123,24 @@ body {
     margin-bottom: 20px;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.charts-container {
+    /* border: 1px solid red; */
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.charts-container .genre {
+    cursor: pointer;
+}
+
+.footer {
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 80%;
+    margin-top: 15px;
+    margin-left: 220px;
 }
