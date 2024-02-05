@@ -2,86 +2,386 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="topArtistStyle.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="topArtistStyle.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-    <!-- Nav Start -->
-    <div class="header">
-        <div class="header_left">
-            <img src="../image/JioSaavn_Logo.svg.png" alt="JioSaavan LoGo" />
-            <span title="Music">Music</span>
-            <span title="Podcasts"><a href="#podcasts">Podcasts</a></span>
-            <span title="GoPro">GoPro</span>
-        </div>
+	<!-- Nav Start -->
+	<div class="header">
+		<div class="header_left">
+			<img src="../image/JioSaavn_Logo.svg.png" alt="JioSaavan LoGo" />
+			<span title="Music">Music</span>
+			<span title="Podcasts"><a href="../dhruv/podcast.html">Podcasts</a></span>
+			<span title="GoPro">GoPro</span>
+		</div>
 
-        <div title="search" class="header_middle">
-            <input type="text" placeholder="Search">
-            <i class="material-icons">search</i>
-        </div>
+		<div title="search" class="header_middle">
+			<i class="material-icons">search</i>
+			<input type="text" placeholder="Search">
+			
+		</div>
 
-        <div class="header_right">
-            <span title="Log In" class="login">Log in</span>
-            <span title="Sign Up" class="login">Sign up</span>
-            <span>
-                <select class="select" name="Languages">
-                    <option disabled selected>Music Languages</option>
-                    <option value="Hindi">Hindi</option>
-                    <option value="English">English</option>
-                    <option value="Punjabi">Punjabi</option>
-                    <option value="Gujarati">Gujarati</option>
-                    <option value="Bhojpuri">Bhojpuri</option>
-                </select>
-            </span>
-        </div>
-    </div>
-    <!-- Nav close -->
+		<div class="header_right">
+			<select class="select" name="Languages">
+				<option disabled selected>Music Languages</option>
+			   
+				<option value="Hindi">Hindi</option>
+				<option value="English">English</option>
+				<option value="Punjabi">Punjabi</option>
+				<option value="Gujarati">Gujarati</option>
+				<option value="Bhojpuri">Bhojpuri</option>
+			</select>
+			<span title="Log In" class="login">Log in</span>
+			<span title="Sign Up" class="login">Sign up</span>
+			<span>
+			   
+			</span>
+		</div>
+	</div>
+	<!-- Nav close -->
 
-    <div class="main">
-        <!-- Sidebar Section Start -->
-        <div class="sidebar">
-            <div class="categories-1">
-                <h4>BROWSE</h4>
-                <ul class="category-1">
-                    <li title="New Releases"><a href="">New Releases</a></li>
-                    <li title="Top Charts"><a href="">Top Charts</a></li>
-                    <li title="Top Playlists"><a href="">Top Playlists</a></li>
-                    <li title="Podcasts"><a href="">Podcasts</a></li>
-                    <li title="Top Artists"><a href="topArtist.html">Top Artists</a></li>
-                    <li title="Radio"><a href="">Radio</a></li>
-                </ul>
-            </div>
+	<div class="main">
+		<!-- Sidebar Section Start -->
+		<div class="sidebar">
+			<div class="categories-1">
+				<h4>BROWSE</h4>
+				<ul class="category-1">
+					<li title="New Releases"><a href="">New Releases</a></li>
+					<li title="Top Charts"><a href="">Top Charts</a></li>
+					<li title="Top Playlists"><a href="">Top Playlists</a></li>
+					<li title="Podcasts"><a href="">Podcasts</a></li>
+					<li title="Top Artists"><a href="topArtist.html">Top Artists</a></li>
+					<li title="Radio"><a href="Radio.html">Radio</a></li>
+				</ul>
+			</div>
 
-            <div class="categories-2">
-                <h4>LIBRARY</h4>
-                <div class="category-2">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    <span title="History">History</span>
-                </div>
-                <div class="category-2">
-                    <i class="fa-solid fa-heart"></i>
-                    <span title="Liked Songs">Liked Songs</span>
-                </div>
-                <div class="category-2">
-                    <i class="fa-solid fa-record-vinyl"></i>
-                    <span title="Albums">Albums</span>
-                </div>
-                <div class="category-2">
-                    <i class="fa-solid fa-microphone-lines"></i>
-                    <span title="Podcasts">Podcasts</span>
-                </div>
-                <div class="category-2">
-                    <i class="fa-solid fa-person"></i>
-                    <span title="Artists">Artists</span>
-                </div>
-            </div>
+			<div class="categories-2">
+				<h4>LIBRARY</h4>
+				<div class="category-2">
+					<i class="fa-solid fa-clock-rotate-left"></i>
+					<span title="History">History</span>
+				</div>
+				<div class="category-2">
+					<i class="fa-solid fa-heart"></i>
+					<span title="Liked Songs">Liked Songs</span>
+				</div>
+				<div class="category-2">
+					<i class="fa-solid fa-record-vinyl"></i>
+					<span title="Albums">Albums</span>
+				</div>
+				<div class="category-2">
+					<i class="fa-solid fa-microphone-lines"></i>
+					<span title="Podcasts">Podcasts</span>
+				</div>
+				<div class="category-2">
+					<i class="fa-solid fa-person"></i>
+					<span title="Artists">Artists</span>
+				</div>
+			</div>
 
-            <div class="newplaylist">
-                <button>+ New Playlist</button>
-            </div>
-        </div>
-        <!-- Sidebar Section end -->
+			<div class="newplaylist">
+				<button>+ New Playlist</button>
+			</div>
+		</div>
+		<!-- Sidebar Section end -->
+
+		<div class="contents">
+			<ul class="column">
+				<ul title="New Releases"><a href="">New Releases</a></ul>
+				<ul title="Top Charts"><a href="">Charts</a></ul>
+				<ul title="Top Playlists"><a href="">Top Playlists</a></ul>
+				<ul title="Podcasts"><a href="">Podcasts</a></ul>
+				<ul title="Top Artists"><a href="topArtist.html">Top Artists</a></ul>
+				<ul title="Radio"><a href="Radio.html">Radio</a></li>
+			</ul>
+			<div class="surprise">
+				<button>Surprise  Me</button>
+			</div>
+		</div>
+			<!-- Top artist Started -->
+		 
+			<div class="topArtist">
+				<h2>Top Artists</h2>
+				<div class="container">
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,00000 fans</p>
+						</div>
+					</div>
+
+					
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Neha_Kakkar_006_20200822042626_500x500.jpg" alt="Neha Kakkar">
+						</div>
+						<div class="title">
+							<p class="p1">Neha Kakkar</p>
+							<p class="p2">754700 fans</p>
+						</div>
+					</div>
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Justin_Bieber_005_20201127112218_500x500.jpg" alt="justin Bieber">
+						</div>
+						<div class="title">
+							<p class="p1">Justin_Bieber</p>
+							<p class="p2">3895,000 fans</p>
+						</div>
+					</div>
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Atif_Aslam_500x500.jpg" alt="Atif Aslam">
+						</div>
+						<div class="title">
+							<p class="p1">Atif Aslam</p>
+							<p class="p2">53326,988 fans</p>
+						</div>
+					</div>
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Diljit_Dosanjh_005_20231025073054_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Diljeet Dosanjh</p>
+							<p class="p2">25055,678 fans </p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Yo_Yo_Honey_Singh_002_20221216102650_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Yo Yo Honey Singh </p>
+							<p class="p2">4153,490 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Badshah_005_20230608084021_500x500.jpg" alt="Badshah">
+						</div>
+						<div class="title">
+							<p class="p1">Badshah</p>
+							<p class="p2">5,055,811 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Nucleya_500x500.jpg" alt="Nucleya_">
+						</div>
+						<div class="title">
+							<p class="p1">Nucleya_</p>
+							<p class="p2">372,503 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Sonu_Nigam_500x500.jpg" alt=" Sonu_Nigam">
+						</div>
+						<div class="title">
+							<p class="p1">Sonu_Nigam</p>
+							<p class="p2">6399,693 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Lata_Mangeshkar_004_20230623105323_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Lata MAngeshkar</p>
+							<p class="p2">6,281,603 fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Ed_Sheeran_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Ed-Sheeran</p>
+							<p class="p2">2339970 fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Shreya_Ghoshal_004_20230228102304_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Shreya Ghoshal</p>
+							<p class="p2">11,544,171fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Sanam_Puri_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Sanam Puri </p>
+							<p class="p2">2,480,351fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Raftaar_009_20230223100912_500x500.jpg" alt="Raftaar">
+						</div>
+						<div class="title">
+							<p class="p1">Raftaar</p>
+							<p class="p2">1446,897 fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="image/Himesh_Reshammiya_500x500.jpg" alt="">
+						</div>
+						<div class="title">
+							<p class="p1">Himesh Reshammaiya</p>
+							<p class="p2"> fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="https://c.saavncdn.com/artists/Arijit_Singh_002_20230323062147_500x500.jpg" alt="Arijit singh">
+						</div>
+						<div class="title">
+							<p class="p1">Arijit Singh</p>
+							<p class="p2">35,000 fans</p>
+						</div>
+					</div>
+
+					<div class="artist-name">
+						<div class = "artist-thumbnail">
+							<img src="" alt="">
+						</div>
+						<div class="title">
+							<p class="p1"></p>
+							<p class="p2"></p>
+						</div>
+					</div>
+
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="" alt="">
+						</div>
+						<div class="title">
+							<p class="p1"></p>
+							<p class="p2"></p>
+
+						</div>
+
+						
+					<div class="artist-name">
+						<div class="artist-thumbnail">
+							<img src="" alt="">
+						</div>
+						<div class="title">
+							<p class="p1"></p>
+							<p class="p2"></p>
+
+						</div>
+
+					</div>
+
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/9c96e71cba.js" crossorigin="anonymous"></script>
+</body>
+</html>
