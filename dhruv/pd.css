@@ -77,20 +77,17 @@ body {
 .side-nav {
     /* border: 1px solid teal; */
     width: 15%;
-    height: 100%;
+    height: 85%;
     margin-right: 20px;
     overflow-y: scroll;
+    position: fixed;
 }
 
 .album-list {
     width: 85%;
     /* border: 1px solid green; */
-}
-
-.album-list {
-    width: 83%;
     position: relative;
-    /* border: 2px solid red; */
+    margin-left: 220px;
 }
 
 .movie-list {
