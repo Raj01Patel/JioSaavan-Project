@@ -235,7 +235,7 @@ body {
     font-weight: 400;
     font-display:#000000;
 }
-.topbar {
+.radio {
     /* border: 2px solid red; */
     width: 83%;
     position: relative;
@@ -278,119 +278,4 @@ body {
 }
 .column a:target {
     text-decoration: underline;
-}
-.topArtist {
-    border: 2px solid red;
-    width: 83%;
-    position: relative;
-    margin-top: 200px;
-    left: -750px;
-    z-index: -1;
-
-}
-
-.topArtist h2 {
-    margin-bottom: 20px;
-    margin-left: 25px;
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 1400px;
-    text-align: center;
-    gap: 20px;
-    margin-bottom: 20px;
-    overflow: hidden
-}
-.artist-name {
-    /* border: 2px solid black; */
-    width: 10%;
-    text-align: center;
-    gap: 20px;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    overflow: hidden
-}
-
-.artist-name .artist-thumbnail img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 7px;
-    border-radius: 50%;
-}
-
-.artist-name .title .p1 {
-    color: #3e3e3e;
-    font-size: 13px;
-    font-weight: 600;
-    line-height: 19px;
-}
-
-.artist-name .title .p2 {
-    color: #616161;
-    font-size: 11px;
-    font-weight: 600;
-}
-.footer-1 {
-    display: flex;
-    width: 95%;
-    margin-top: 30px;
-    margin-left: 60px;
-}
-
-.footer-container-1 {
-    width: 13%;
-    margin-right: 30px;
-}
-
-.footer-container-1 h4 {
-    margin-bottom: 10px;
-    color: #3e3e3ead;
-    font-size: 14px;
-}
-
-.footer-container-1 p {
-    font-size: 12.8px;
-    line-height: 1.8;
-    cursor: pointer;
-}
-
-.footer-2 {
-    display: flex;
-    width: 95%;
-    margin-top: 10px;
-    margin-left: 60px;
-}
-
-.footer-container-2 span {
-    font-size: 12.8px;
-    line-height: 1.8;
-    margin-right: 10px;
-    cursor: pointer;
-}
-
-.footer-3 {
-    width: 95%;
-    margin-top: 10px;
-    margin-left: 60px;
-    cursor: pointer;
-}
-
-.footer-container-3 .s1 {
-    font-size: 12.8px;
-    line-height: 1.8;
-    margin-right: 45%;
-}
-
-.footer-container-3 .s2 {
-    font-size: 20px;
-}
-
-.footer-container-3 i {
-    font-size: 20px;
-}
-
-.footer-container-1 p:hover {
-    color: rgb(0, 0, 0);
 }
