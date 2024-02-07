@@ -405,3 +405,49 @@ body {
 .footer-container-1 p:hover {
     color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 900px) {
+    .header_left span {
+        display: none;
+    }
+
+    .header_right span {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .music {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .header_left img {
+        width: 70px;
+        padding-left: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .header_middle input {
+        width: 220px;
+    }
+
+    .header_middle input::placeholder {
+        color: black;
+        font-weight: 200;
+        font-size: 7px;
+    }
+
+    footer {
+        display: none;
+    }
+
+
+}
