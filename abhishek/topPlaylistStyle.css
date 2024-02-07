@@ -93,25 +93,31 @@ body {
 
 .header_middle {
     display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.651);
-    border-radius: 10px;
-    /* align-items: center; */
+    border-radius:80px ;
     border: 2px solid rgb(235, 235, 235);
+    margin-top: 20px;
+    width: 600px;
 }
 
 .header_middle input {
     background-color: rgba(255, 255, 255, 0.445);
     border-style: none;
-    border-radius: 10px;
-    width: 420px;
-    height: 30px;
+    border-radius:80px;  
+    width: 60px;
+    height: 40px;
     cursor: pointer;
+    border-width: 0px;
 }
 
 .header_middle input::placeholder {
     color: black;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 14px;
+    text-align: center;
+
 }
 
 .header_middle:hover {
@@ -332,6 +338,7 @@ body {
     border-radius: 100px;
 }
 
+
 .container.icon_hover-2 .music-thumbnail:hover .img {
     opacity: 0.3;
 }
@@ -495,8 +502,32 @@ body {
     }
 
     footer {
-        display: none;
+        display:none;
+    
     }
 
 
+}
+.album-list {
+    width: 85%;
+    /* border: 1px solid green; */
+    position: relative;
+    margin-left: 220px;
+}
+.album-list h2 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.charts-container {
+    /* border: 1px solid red; */
+    width: 70%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.charts-container .genre {
+    cursor: pointer;
 }
