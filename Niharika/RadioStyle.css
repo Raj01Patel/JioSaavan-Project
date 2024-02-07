@@ -18,8 +18,8 @@ body {
     height: 48px;
     /* border: 2px solid black; */
     width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     position: fixed;
     background: #f6f6f6;
     /* opacity: 1; */
@@ -29,7 +29,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 .header_left a {
@@ -54,7 +53,6 @@ body {
     cursor: pointer;
 }
 
-
 .header_middle {
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -62,7 +60,7 @@ body {
     background-color: rgba(255, 255, 255, 0.651);
     border-radius:80px ;
     border: 2px solid rgb(235, 235, 235);
-    margin-top: 20px;
+    margin-top: 10px;
     width: 600px;
 }
 
@@ -216,12 +214,16 @@ body {
 .sidebar .newplaylist button:hover {
     color: green;
 }
-.column ul {
-    list-style: none;
-}
 
-.column ul li {
-    margin-bottom: 10PX;
+
+.topbar {
+    /* border: 2px solid red; */
+    width: 83%;
+    position: relative;
+    top: 46px;
+    left: 253px;
+    margin-top: 15px;
+    direction: row;
 }
 .column {
     margin-top: 10px;
@@ -235,16 +237,13 @@ body {
     font-weight: 400;
     font-display:#000000;
 }
-.radio {
-    /* border: 2px solid red; */
-    width: 83%;
-    position: relative;
-    top: 46px;
-    left: 253px;
-    margin-top: 15px;
-    direction: row;
+.column ul {
+    list-style: none;
 }
 
+.column ul li {
+    margin-bottom: 10PX;
+}
 .surprise button {
     margin-top: -10px;
     height: 35px;
@@ -278,4 +277,131 @@ body {
 }
 .column a:target {
     text-decoration: underline;
+}
+
+.radioStation {
+    width: 83%;
+    position: relative;
+    margin-top: 200px;
+    left: -750px;
+    z-index: -1;
+
+}
+
+.radioStation h2 {
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1400px;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    overflow: hidden
+}
+.radio {
+    /* border: 2px solid black; */
+    width: 10%;
+    text-align: center;
+    gap: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    overflow: hidden
+}
+
+.radio .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 7px;
+    border-radius: 50%;
+}
+
+.radio .title .p1 {
+    color: #3e3e3e;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 19px;
+}
+
+.radio .title .p2 {
+    color: #616161;
+    font-size: 11px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-1 {
+    display: flex;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.footer-container-1 {
+    width: 13%;
+    margin-right: 30px;
+}
+
+.footer-container-1 h4 {
+    margin-bottom: 10px;
+    color: #3e3e3ead;
+    font-size: 14px;
+}
+
+.footer-container-1 p {
+    font-size: 12.8px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+
+.footer-2 {
+    display: flex;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.footer-container-2 span {
+    font-size: 12.8px;
+    line-height: 1.8;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.footer-3 {
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.footer-container-3 .s1 {
+    font-size: 12.8px;
+    line-height: 1.8;
+    margin-right: 45%;
+}
+
+.footer-container-3 .s2 {
+    font-size: 20px;
+}
+
+.footer-container-3 i {
+    font-size: 20px;
+}
+
+.footer-container-1 p:hover {
+    color: rgb(0, 0, 0);
 }

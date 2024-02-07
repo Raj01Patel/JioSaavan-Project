@@ -2,7 +2,7 @@
         margin: 0px;
         padding: 0px;
         box-sizing: border-box;
-        font-family: Lato, sans-serif;
+        color: black;
     }
     
     body {
@@ -18,7 +18,7 @@
         z-index: 1000;
         top: 0;
         position: fixed;
-        background: #eeeeee;
+        background: #f6f6f6
     }
     
     .left-section {
@@ -78,6 +78,7 @@
         margin-top: 60px;
         display: flex;
         z-index: 1;
+        font-size: 15px;
     }
     
     .side-nav {
@@ -85,7 +86,7 @@
         width: 15%;
         height: 85%;
         margin-right: 20px;
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
         position: fixed;
     }
     
@@ -140,14 +141,19 @@
     
     .charts-container {
         /* border: 1px solid red; */
-        width: 70%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        cursor: pointer;
+        margin-top: 30px;
     }
     
-    .charts-container .genre {
-        cursor: pointer;
+    .genre {
+        transition: 0.3s ease;
+    }
+    
+    .genre:hover {
+        color: lightblue;
     }
     
     .list-1 {
@@ -239,6 +245,7 @@
         width: 95%;
         margin-top: 30px;
         margin-left: 60px;
+        font-family: Lato, sans-serif;
     }
     
     .footer-container-1 {
