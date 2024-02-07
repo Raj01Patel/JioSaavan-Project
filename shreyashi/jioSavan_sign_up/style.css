@@ -90,6 +90,7 @@ html,body{
 }
 .btn a{
     text-decoration: none;
+    color: black;
 }
 .content_form{
     width: 600px;
