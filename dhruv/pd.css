@@ -141,14 +141,19 @@
     
     .charts-container {
         /* border: 1px solid red; */
-        width: 70%;
         display: flex;
         align-items: center;
         justify-content: space-around;
+        cursor: pointer;
+        margin-top: 30px;
     }
     
-    .charts-container .genre {
-        cursor: pointer;
+    .genre {
+        transition: 0.3s ease;
+    }
+    
+    .genre:hover {
+        color: lightblue;
     }
     
     .list-1 {
