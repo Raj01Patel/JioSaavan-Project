@@ -30,8 +30,8 @@ body {
     padding: 44px;
     background: #f6f9f7;
     z-index: 1;
-    position: fixed;
-    margin-bottom: 2vh;
+    /* position: fixed; */
+    /* margin-bottom: 2vh; */
 }
 
 .header_left {
@@ -92,6 +92,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
+    border-radius: 50%;
 }
 
 .header_left span {
@@ -164,9 +165,9 @@ body {
 }
 /*  */
 .sidebar {
-    width: 24%;
+    width: 17%;
     height: 100%;
-    margin-top: 10vh;
+    margin-top: 10px;
 }
 
 .categories-1 {
@@ -264,39 +265,33 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
+    /* border: 2px solid red; */
+    padding-top: 0.5rem;
 }
-.sidevar{
-    width: 31vh;
-    height: 89vh;
-    position: fixed;
-    background-color: darkkhaki;
-    margin-top: 10vh;
-    position: fixed;
-}
+/* .sidevar{
+    width: 17%;
+    height: 100%;
+    /* position: fixed; */
+    /* background-color: darkkhaki; */
+    /* margin-top: 10vh; */
+    /* position: fixed; */
+/* }  */
 .whole{
     display: flex;
     flex-direction: column;
-    width: 600vh;
-    height: 654vh;
-    margin-left: 20vh;
-    margin-top: 16vh;
+    width: 83%;
+    height: 85vh;
+    overflow: auto;
 }
-/* .whole{ */
-    /* background-color: rgb(216, 232, 112); */
-    /* display: flex;
-    flex-direction: column;
-    width: 600vh;
-    height: 654vh;
-    margin-left: 20vh;
-    margin-top: 16vh; */
-/* } */
+
 .nav{
-    /* background-color: rgb(207, 224, 191); */
     height: 12vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
 }
 .nav li{
     display: inline-block;
@@ -328,9 +323,12 @@ h2{
     font-weight: bolder;
 }
 .songs{
+    /* width: 90%; */
+    /* height: 90vh; */
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 15vh;
+    /* border: 2px solid black; */
 }
 .photo{
     height: 24vh;
@@ -345,6 +343,7 @@ h2{
     flex-direction: column;
     text-align: center;
     margin: 2vh;
+   
 }
 .fast{
     display: flex;
