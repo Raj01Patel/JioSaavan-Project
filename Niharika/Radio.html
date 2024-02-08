@@ -10,23 +10,64 @@
 </head>
 
 <body>
-    <!-- Nav Start -->
     <div class="header">
         <div class="header_left">
             <img src="../image/JioSaavn_Logo.svg.png" alt="JioSaavan LoGo" />
-            <span title="Music">Music</span>
-            <span title="Podcasts"><a href="../dhruv/podcast.html">Podcasts</a></span>
-            <span title="GoPro">GoPro</span>
+            <div class="mydiv"><span title="Music">Music</span></div>
+            <div class="hide">
+                <h2 style="margin-left: 20px; color: rgba(0, 0, 0, 0.58);">What's Hot on JioSaavn
+                </h2>
+                <hr>
+                <div class="menu-item">
+                    <div class="menu-container-1">
+                        <h4>NEW RELEASES</h4>
+                        <p>Tum Se (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
+                        <p>Teri Baaton Mein Aisa Uljha Jiya Title Song (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
+                        <p>Jeena Haraam (From "Crakk - Jeetegaa Toh Jiyegaa")</p>
+                        <p>Akhiyaan Gulaab (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
+                        <p>Dil Jhoom (From "Crakk - Jeetegaa Toh Jiyegaa")</p>
+                        <p>Laal Peeli Akhiyaan (From "Teri Baaton Mein Aisa Uljha Jiya")</p>
+                        <p>Raat Akeli Thi (From "Merry Christmas")</p>
+                    </div>
+                    <div class="menu-container-1" style="width: 60%;">
+                        <h4>TOP PLAYLISTS</h4>
+                        <p>Chartbusters 2023 - Hindi</p>
+                        <p>Surprise Me</p>
+                        <p>Weekly Top Songs - Hindi</p>
+                        <p>Best Of Dance - Hindi</p>
+                        <p>Indipop Hits 2023 - Hindi</p>
+                        <p>Jhakaas Remakes</p>
+                        <p>Romantic Hits 2023 - Hindi</p>
+                        <p>Sirf Unplugged</p>
+                        <p>Best Of 2000s - Hindi</p>
+                        <p>Best Of Sad Songs - Hindi</p>
+                    </div>
+                    <div class="menu-container-1" style="width: 60%;">
+                        <h4>TOP ARTISTS</h4>
+                        <p>Neha Kakkar</p>
+                        <p>Arijit Singh</p>
+                        <p>Badshah</p>
+                        <p>Atif Aslam</p>
+                        <p>Justin Bieber</p>
+                        <p>Himesh Reshammiya</p>
+                        <p>Badshah</p>
+                        <p>Lata Mangeshkar</p>
+                        <p>Diljit Dosanjh</p>
+                        <p>Shreya Ghoshal</p>
+                        <p>Reshammiya</p>
+                    </div>
+                </div>
+            </div>
+            <div><span title="Podcasts"><a href="#podcasts">Podcasts</a></span></div>
+            <div><span title="GoPro">GoPro</span></div>
         </div>
 
         <div title="search" class="header_middle">
-            <i class="material-icons">search</i>
             <input type="text" placeholder="Search">
+            <i class="material-icons">search</i>
         </div>
 
         <div class="header_right">
-            <span title="Log In" class="login">Log in</span>
-            <span title="Sign Up" class="login">Sign up</span>
             <span>
                 <select class="select" name="Languages">
                     <option disabled selected>Music Languages</option>
@@ -37,21 +78,23 @@
                     <option value="Bhojpuri">Bhojpuri</option>
                 </select>
             </span>
+            <span title="Log In" class="login"><a href="../shreyashi/jioSavan_log_in/index.html">Log In</a></span>
+            <span title="Sign Up" class="login"><a href="../shreyashi/jioSavan_sign_up/index.html">Sign Up</a></span>
         </div>
     </div>
     <!-- Nav close -->
-	<div class="main">
-        <!-- Sidebar Section Start -->
+
+    <div class="main">
         <div class="sidebar">
             <div class="categories-1">
                 <h4>BROWSE</h4>
                 <ul class="category-1">
-                    <li title="New Releases"><a href="">New Releases</a></li>
-                    <li title="Top Charts"><a href="">Top Charts</a></li>
-                    <li title="Top Playlists"><a href="">Top Playlists</a></li>
-                    <li title="Podcasts"><a href="">Podcasts</a></li>
-                    <li title="Top Artists"><a href="topArtist.html">Top Artists</a></li>
-                    <li title="Radio"><a href="">Radio</a></li>
+                    <li title="New Releases"><a href="#">New Releases</a></li>
+                    <li title="Top Charts"><a href="../shreyashi/Top Charts/charts.html">Top Charts</a></li>
+                    <li title="Top Playlists"><a href="../abhishek/topPlaylist.html">Top Playlists</a></li>
+                    <li title="Podcasts"><a href="../dhruv/podcast.html">Podcasts</a></li>
+                    <li title="Top Artists"><a href="../Niharika/topArtist.html">Top Artists</a></li>
+                    <li title="Radio"><a href="../Niharika/Radio.html">Radio</a></li>
                 </ul>
             </div>
 
@@ -82,43 +125,50 @@
             <div class="newplaylist">
                 <button>+ New Playlist</button>
             </div>
-
         </div>
         <!-- Sidebar Section end -->
-        <div class="topbar">
-            <ul class="column">
-                <ul title="New Releases"><a href="">New Releases</a></ul>
-                <ul title="Top Charts"><a href="">Charts</a></ul>
-                <ul title="Top Playlists"><a href="">Top Playlists</a></ul>
-                <ul title="Podcasts"><a href="">Podcasts</a></ul>
-                <ul title="Top Artists"><a href="topArtist.html">Top Artists</a></ul>
-                <ul title="Radio"><a href="Radio.html">Radio</a></li>
-            </ul>
-            <div class="surprise">
-                <button>Surprise  Me</button>
-            </div>
-            <!-- <hr>
-            <ul class="column">
-                <ul title="For You"><a href="">For You</a> </ul>
-                <ul title="Hindi"><a href="">Hindi</a> </ul>
-                <ul title="Tamil"><a href="">Tamil</a> </ul>
-                <ul title="Telugu"><a href="Telugu"></a> </ul>
-                <ul title="English"><a href="">English</a> </ul>
-                <ul title="Punjabi"><a href="">Punjabi</a> </ul>
-                <ul title="Marathi"><a href="">Marathi</a> </ul>
-                <ul title="Kannada"><a href="">Kannada</a> </ul>
-            </ul> -->
-        </div>
-        <!-- <hr> -->
         <!-- radio main page started -->
+
+        <!-- radioStation = music
+        radio = main-music icon_hover-1
+        thumbnail = music-thumbnail -->
         <div class="radioStation">
+            <div class="music-nav">
+                <div class="box"><a href="../Raj Patel/new releases.html">New Releases</a></div>
+                <div class="box"><a href="../shreyashi/Top Charts/charts.html">Charts</a></div>
+                <div class="box"><a href="../abhishek/topPlaylist.html">Top Playlists</a>
+                </div>
+                <div class="box"><a href="../dhruv/podcast.html">Podcasts</a>
+                </div>
+                <div class="box"><a href="../Niharika/topArtist.html">Top Artists</a>
+                </div>
+                <div class="box"><a href="../Niharika/Radio.html">Radio</a></div>
+                <button class="box1">Surprise Me</button>
+            </div>
+            <hr>
+            <div class="music-nav-1">
+                <div class="box2">For You</div>
+                <div class="box2">Hindi</div>
+                <div class="box2">Tamil
+                </div>
+                <div class="box2">English
+                </div>
+                <div class="box2">Punjabi
+                </div>
+                <div class="box2">Marathi</div>
+                <div class="box2">Gujarati</div>
+            </div>
             <h2>Radio Stations</h2>
                 
-                    <div class="container">
+                <div class="container">
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/jesus.jpg" alt="yeshu mashih">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Yashu Masih</p>
@@ -127,9 +177,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/MusicalCovers_saavn_radio_20210528093259_500x500 (1).jpg" alt="music cover ">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Hindi Musical Covers</p>
@@ -138,9 +192,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/MehfilEGhazal_saavn_radio_20201012131922_500x500.jpg" alt="Mehfil ghazal">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Mehfil-e-Ghazal</p>
@@ -149,9 +207,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/BhajanSagar_saavn_radio_20211129080622_500x500.jpg" alt="1bhajan sagar">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Bhajan Sagar</p>
@@ -160,9 +222,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/SufiyanaSafar_saavn_radio_20201125121205_500x500.jpg" alt="">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Sufiyan Safar</p>
@@ -171,9 +237,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/ShriSaiBaba_saavn_radio_20201231132105_500x500 (1).jpg" alt="Sai Baba">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Shri Sai Baba</p>
@@ -182,9 +252,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/BollywoodY2K_saavn_radio_20210331123208_500x500 (1).jpg" alt="Bollywood 2000s">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Bollywood 2000s</p>
@@ -193,9 +267,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/SufiyanaSafar_saavn_radio_20201125121205_500x500.jpg" alt="">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Sufiyaan Safar</p>
@@ -204,9 +282,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/Retro70sand80s_saavn_radio_20211129082651_500x500.jpg" alt="Retro 70s 80s">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Bollywood Retro 70s-80s </p>
@@ -215,9 +297,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/Superhits_saavn_radio_20210226152608_500x500.jpg" alt="SuperHits">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Hindi Superhits</p>
@@ -226,9 +312,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/NirgunBhakti_saavn_radio_20201231131533_500x500 (1).jpg" alt="NirgunBhakti">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1"> Nirgun Bhkti</p>
@@ -237,9 +327,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/Chill_saavn_radio_20211129080934_500x500.jpg" alt="Chill Karo">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Chill Karo</p>
@@ -248,9 +342,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/90sNostalgia_saavn_radio_20201012131819_500x500.jpg" alt="90s Nostalgia">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">90s Nostalgia</p>
@@ -259,9 +357,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/DrivetimeTunes_saavn_radio_20211129081831_500x500.jpg" alt="Drivetime Tunes">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Drivetime Dhun</p>
@@ -270,9 +372,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/FeelingSad_saavn_radio_20201120115705_500x500 (1).jpg" alt="dukhi man">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Dukhi Mann</p>
@@ -282,9 +388,13 @@
                     </div>
 
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/JaiShivShankar_saavn_radio_20210226154640_500x500.jpg" alt="jai shiv shankar">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1"> Jai Shiv Shankar</p>
@@ -294,9 +404,13 @@
                     </div>
 
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/LoveNotes_saavn_radio_20211115090755_500x500.jpg" alt="Love notes">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Pyaar Ka Safar</p>
@@ -305,9 +419,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/pink buddha.jpg" alt="Jai Jinendra">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Jai Jinendra</p>
@@ -316,9 +434,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/ShriHariNarayan_saavn_radio_20230621123706_500x500.jpg" alt="Shri Hari Narayan">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Shri Hari Narayan</p>
@@ -327,9 +449,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/JaiShriKrishna_saavn_radio_20210129122546_500x500.jpg" alt="Jai Shree Krishna">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Jai Shri Krishna</p>
@@ -338,9 +464,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/HindustaniSangeet_saavn_radio_20210528093123_500x500.jpg" alt="Hindustani Sangeet">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Hindustani Sangeet</p>
@@ -349,9 +479,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/DesiHipHop_saavn_radio_20210331122730_500x500.jpg" alt="desi Hip Hop">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Desi Hip Hop</p>
@@ -360,9 +494,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/JaiShriRam_saavn_radio_20210129122301_500x500.jpg" alt="Jai Shree Ram">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Jai Shri Ram</p>
@@ -371,9 +509,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/Workout_saavn_radio_20211129083042_500x500.jpg" alt="Workout">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Workout Karo</p>
@@ -382,9 +524,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/SantVaani_saavn_radio_20210528092948_500x500.jpg" alt="SantVaani">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Bhakti Rachna</p>
@@ -394,9 +540,13 @@
                     </div>
 
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/MadhurKirtan_saavn_radio_20201215120716_500x500.jpg" alt="Madhur Kirtan">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Madhur Kirtan</p>
@@ -405,9 +555,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/BaalGeet_saavn_radio_20210528092613_500x500 (1).jpg" alt="Baal Geet">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Baal Geet</p>
@@ -416,9 +570,13 @@
 
                     </div>
 
-                    <div class="radio">
+                    <div class="radio icon_hover-1">
                         <div class="thumbnail">
                             <img src="image/SuperRemixes_saavn_radio_20210528093419_500x500.jpg" alt="Remix Dhamaal">
+                            <div class="middle-1">
+                                <div class="text-1"><i class="fa-sharp fa-solid fa-circle-play fa-xl"></i>
+                                </div>
+                            </div>
                         </div>
                         <div class="tittle">
                             <p class="p1">Remix Dhamaal</p>
@@ -427,129 +585,139 @@
 
                     </div>
                     <!-- container end here -->
-                    <hr>
-                    <!-- Footer Start -->
-                     <div class="footer-1">
-                        <div class="footer-container-1">
-                           <h4>TOP ARTISTS</h4>
-					        <p>Neha Kakkar</p>
-					        <p>Arijit Singh</p>
-					        <p>Badshah</p>
-					        <p>Atif Aslam</p>
-					        <p>Justin Bieber</p>
-					        <p>Himesh Reshammiya</p>
-				            <p>Badshah</p>
-					        <p>Lata Mangeshkar</p>
-					        <p>Diljit Dosanjh</p>
-					        <p>Shreya Ghoshal</p>
-					        <p>Reshammiya</p>
-                        </div>
-           
-                        <div class="footer-container-1">
-                           <h4>TOP ACTORS</h4>
-                             <p>Raj Patel</p>
-                             <p>Allu Arjun</p>
-                             <p>Salman Khan</p>
-                             <p>Amitabh Bachchan</p>
-                             <p>Varun Dhawan</p>
-                             <p>Sunny Leone</p>
-                        
-        
-                          <h4 style="margin-top: 10px;">BROWSE</h4>
-                            <P>New Releases</P>
-                            <p>Featured Playlists</p>
-                            <p>Weekly Top Songs</p>
-                            <p>Top Artists</p>
-                            <p>Top Charts</p>
-                            <p>Top Radios</p>
-                        </div>
-                 
-        
-                        <div class="footer-container-1">
-                            <h4>DEVOTIONAL SONGS</h4>
-                            <p>Krishna Bhajan</p>
-                            <p>Mahamrityunjaya Mantra</p>
-                            <p>Deva Shree Ganesha</p>
-                            <p>Hanuman Chalisa</p>
-                            <p>Gayatri Mantra</p>
-                            <p>Mata Ke Bhajan</p>
-                            <p>Durga Chalisa</p>
-                            <p>Maiya Yashoda</p>
-                            <p>Bhakti Geet</p>
-                        </div>
-        
-                        <div class="footer-container-1">
-                            <h4>LANGUAGE</h4>
-                            <p>Hindi Songs</p>
-                            <p>Punjabi Songs</p>
-                            <p>Bhojpuri Songs</p>
-                            <p>Tamil Songs</p>
-                            <p>Telugu Songs</p>
-                            <p>Kannada Songs</p>
-                            <p>Gujarati Songs</p>
-                            <p>Odia Songs</p>
-                            <p>Marathi Songs</p>
-                            <p>Rajasthani Songs</p>
-                            <p>Haryanvi Songs</p>
-                        </div>
-
-                        <div class="footer-container-1">
-                            <h4>ARTIST ORIGINALS</h4>
-                            <p>Zaeden - Dooriyan</p>
-                            <p>Raghav - Sufi</p>
-                            <p>SIXK - Dansa</p>
-                            <p>Siri - My Jam</p>
-                            <p>Lost Stories, "Mai Ni Meriye"</p>
-                        </div>
-              
-                        <div class="footer-container-1">
-                        <h4>COMPANY</h4>
-                            <p>About Us</p>
-                            <p>Culture</p>
-                            <p>Blog</p>
-                            <p>Jobs</p>
-                            <p>Press</p>
-                            <p>Advertise</p>
-                            <p>Terms & Privacy</p>
-                            <p>Help & Support</p>
-                            <p>Grievances</p>
-                            <p>JioSaavn Artist Insights</p>
-                            <p>JioSaavn YourCast</p>
-                        </div>		
-                    </div>
-                    <hr>
-                    <div class="footer-2">
-                        <div class="footer-container-2">
-                            <span>JioSaavn Pro</span>
-                            <span>JioSaavn for iOS</span>
-                            <span>JioSaavn for Android</span>
-                            <span>New Releases</span>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="footer-3">
-                        <div class="footer-container-3">
-                            <span class="s1">© 2024 Saavn Media Limited All rights reserved.</span>
-                            <span class="s2">
-                            <span>Follow Us :</span>
-                            <span><a href="https://www.facebook.com/" class="facebook"><i
-                                class="fa-brands fa-square-facebook" style="color: #045695;">
-                            </i></a></span>
-                            <span><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i>
-                            </span>
-                            <span><i class="fa-brands fa-youtube" style="color: #ff0000;"></i>
-                            </span>
-                            <span><i class="fa-brands fa-instagram" style="color: #ee20d3;"></i>
-                            </span>
-                            <span><i class="fa-brands fa-linkedin" style="color: #74C0FC;"></i>
-                            </span>
-                        </div>
-                     </div>
-                
-
-
                 </div>
+                    
+            <!-- Footer section start -->
+            <footer>
+                <div class="footer-1">
+                    <div class="footer-container-1">
+                        <h4>TOP ARTISTS</h4>
+                        <p>Neha Kakkar</p>
+                        <p>Arijit Singh</p>
+                        <p>Badshah</p>
+                        <p>Atif Aslam</p>
+                        <p>Justin Bieber</p>
+                        <p>Himesh Reshammiya</p>
+                        <p>Badshah</p>
+                        <p>Lata Mangeshkar</p>
+                        <p>Diljit Dosanjh</p>
+                        <p>Shreya Ghoshal</p>
+                        <p>Reshammiya</p>
+                    </div>
+
+                    <div class="footer-container-1">
+                        <h4>TOP ACTORS</h4>
+                        <p>Raj Patel</p>
+                        <p>Allu Arjun</p>
+                        <p>Salman Khan</p>
+                        <p>Amitabh Bachchan</p>
+                        <p>Varun Dhawan</p>
+                        <p>Sunny Leone</p>
+
+                        <h4 style="margin-top: 10px;">BROWSE</h4>
+                        <P>New Releases</P>
+                        <p>Featured Playlists</p>
+                        <p>Weekly Top Songs</p>
+                        <p>Top Artists</p>
+                        <p>Top Charts</p>
+                        <p>Top Radios</p>
+                    </div>
+
+                    <div class="footer-container-1">
+                        <h4>DEVOTIONAL SONGS</h4>
+                        <p>Krishna Bhajan</p>
+                        <p>Mahamrityunjaya Mantra</p>
+                        <p>Deva Shree Ganesha</p>
+                        <p>Hanuman Chalisa</p>
+                        <p>Gayatri Mantra</p>
+                        <p>Mata Ke Bhajan</p>
+                        <p>Durga Chalisa</p>
+                        <p>Maiya Yashoda</p>
+                        <p>Bhakti Geet</p>
+                    </div>
+
+                    <div class="footer-container-1">
+                        <h4>LANGUAGE</h4>
+                        <p>Hindi Songs</p>
+                        <p>Punjabi Songs</p>
+                        <p>Bhojpuri Songs</p>
+                        <p>Tamil Songs</p>
+                        <p>Telugu Songs</p>
+                        <p>Kannada Songs</p>
+                        <p>Gujarati Songs</p>
+                        <p>Odia Songs</p>
+                        <p>Marathi Songs</p>
+                        <p>Rajasthani Songs</p>
+                        <p>Haryanvi Songs</p>
+                    </div>
+                    <div class="footer-container-1">
+                        <h4>ARTIST ORIGINALS</h4>
+                        <p>Zaeden - Dooriyan</p>
+                        <p>Raghav - Sufi</p>
+                        <p>SIXK - Dansa</p>
+                        <p>Siri - My Jam</p>
+                        <p>Lost Stories, "Mai Ni Meriye"
+                        </p>
+                    </div>
+                    <div class="footer-container-1">
+                        <h4>COMPANY</h4>
+                        <p>About Us</p>
+                        <p>Culture</p>
+                        <p>Blog</p>
+                        <p>Jobs</p>
+                        <p>Press</p>
+                        <p>Advertise</p>
+                        <p>Terms & Privacy</p>
+                        <p>Help & Support</p>
+                        <p>Grievances</p>
+                        <p>JioSaavn Artist Insights</p>
+                        <p>JioSaavn YourCast</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-2">
+                    <div class="footer-container-2">
+                        <span>JioSaavn Pro</span>
+                        <span>JioSaavn for iOS</span>
+                        <span>JioSaavn for Android</span>
+                        <span>New Releases</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-3">
+                    <div class="footer-container-3">
+                        <span class="s1">© 2024 Saavn Media Limited All rights reserved.</span>
+                        <span class="s2">
+                            <span>Follow Us :</span>
+                            <span><a href="https://www.facebook.com/" target="_blank"><i
+                                        class="fa-brands fa-square-facebook" style="color: #045695;">
+                                    </i></a>
+                            </span>
+                            <span><a href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"
+                                        style="color: #74C0FC;"></i></a>
+                            </span>
+                            <span><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"
+                                        style="color: #ff0000;"></i></a>
+                            </span>
+                            <span><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"
+                                        style="color: #ee20d3;"></i></a>
+                            </span>
+                            <span><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"
+                                        style="color: #74C0FC;"></i></a>
+                            </span>
+                        </span>
+
+                    </div>
+                </div>
+            </footer>
         </div>
+    </div>
+
+    <div class="bottom-box">
+        <a href="" class="Trending-Now"><i class="fa-solid fa-house"></i></a>
+        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href=""><i class="fa-regular fa-compass"></i></a>
+        <a href=""><i class="fa-regular fa-user"></i></a>
     </div>
     <script src="https://kit.fontawesome.com/9c96e71cba.js" crossorigin="anonymous"></script>
 </body>

@@ -164,5 +164,55 @@ html,body{
     font-weight: bold;
 }
 
+@media screen and (max-width: 1000px){
+    .container{
+        background-color: hsl(240, 9%, 94%);
+        margin: auto;
+        overflow-y: hidden;
+        position: relative;
+        /* background-color: #2bc5b4; */
+    }
+    .fast_half {
+        display: none;
+    }
+    
+    .pic{
+        display: none;
+    }
+    .second_half{
+        position: absolute;
+        top: 0px;
+        left: 80px;
+    }
+    .nav2 p{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 500px){
+    .container{
+        /* background-color: hsl(240, 9%, 94%); */
+        margin: auto;
+        overflow-y: hidden;
+        position: relative;
+        /* background-color: aquamarine; */
+
+    }
+    .fast_half {
+        background-color: hsl(240, 9%, 94%);
+    }
+    .pic{
+        display: none;
+    }
+    .second_half{
+        position: absolute;
+        top: 0px;
+        left: 5px;
+    }
+    .nav2 p{
+        display: none;
+    }
+
+}
 
 
